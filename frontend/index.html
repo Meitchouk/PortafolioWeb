@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to my Web Portfolio - Marat Joseph Lanza Meitchouk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/btns.css">
+    <link rel="stylesheet" href="css/waves.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/media_queries.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="icon" href="img/icons/computer_sciencie.ico">
+  </head>
+  <body>
+    <div class="lds-dual-ring loader" id="loader"></div>
+    <header data-aos="fade-down" data-aos-duration="1000">
+      <nav>
+        <input type="checkbox" id="side-menu-btn" aria-label="Side menu">
+        <label for="side-menu-btn" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <a href="#home" class="logo">S<span>P</span></a>
+        <ul class="menu" id="menu">
+        <li class="options"><a class="btn-style" id="home-btn" aria-label="Home">Home</a></li>
+        <li class="options"><a class="btn-style" id="aboutme-btn" aria-label="About me">About me</a></li>
+        <li class="options"><a class="btn-style" id="tech-btn" aria-label="Technologies">Technologies</a></li>
+        <li class="options"><a class="btn-style" id="projects-btn" aria-label="Projects">Projects</a></li>
+        <li class="options"><a class="btn-style" id="contact-btn" aria-label="Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+		<main>
+			<div class="home" id="home">
+        <div class="welcome" data-aos="fade-up" data-aos-duration="1000">
+          <h3>¡Hello there!, my name is</h3>
+          <h1><span>Marat</span> Lanza</h1>
+          <h2>and I'm a <span>Systems Engineer </span> Student</h2>
+          <div class="cv">
+            <div class="watch-cv">
+              <a class="light-btn" id="cv-btn">See CV</a>
+              <div class="languaje">
+                <a id="select-lang">Select language:</a>
+                <a download href="/frontend/Recursos/CV/cv_Marat_Lanza_ES.pdf" target="_blank" rel="noopener"><img class="flags" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/320px-Flag_of_Spain.svg.png" alt="Spain Flag" ></img><br>Spanish</a>
+                <a download id="english" href="/frontend/Recursos/CV/cv_Marat_Lanza_EN.pdf" rel="noopener" target="_blank"><img class="flags" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/320px-Flag_of_the_United_States.svg.png" alt="USA Flag"></img><br>English</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img id="my-photo" src="img/myPhoto.jpg" alt="Marat Lanza" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="home-wave">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="home-shape-fill"></path>
+          </svg>
+        </div>
+      </div>
+			<div class="about light-color" id="aboutme"
+        data-aos="fade-right"
+        data-aos-duration="500">
+        <div class="coder">
+          <h1>A little About <span>Me</span></h1>
+          <img src="img/programmer.png" alt="Programmer">
+        </div>
+        <div class="about-me">
+          <p class="text">
+            I consider myself a Student passionate about information technology, with a solid background in programming and skills in using various technologies. Seeking an opportunity to apply their knowledge and develop their professional career in a dynamic and challenging environment. 
+          </p>
+          <div class="hobbies">
+            <h3>My <span>Hobbies</span></h3>
+            <ul>
+              <li>Programming</li>
+              <li>Video Games</li>
+              <li>Technologies</li>
+            </ul>
+          </div>
+        </div>
+			</div>
+			<div class="tech dark-color" id="tech"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="500">
+        <div class="top-wave">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+        </div>
+        <h1>Knowledge and <span>Skills</span></h1>
+        <div class="tech-icons" id="tech-icons" data-aos="zoom-in-right" data-aos-duration="500"></div>
+        <div class="bottom-wave">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+          </svg>
+        </div>
+      </div>
+			<div class="projects light-color"
+        id="projects"
+        data-aos="fade-right"
+        data-aos-duration="500">
+        <h1>My Personal <span>Projects</span></h1>
+        <div class="container"
+          data-aos="zoom-in-left"
+          data-aos-duration="500">
+          <div class="container-list">
+            <div class="carousel_container">
+              <button aria-label="Previous" class="previous">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <div id="project-list" class="project-list"></div>
+              <button aria-label="Next" class="next">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+            <div role="tablist" class="indicators"></div>
+          </div>
+        </div>
+			</div>
+			<div class="contact dark-color"
+        id="contact"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="500">
+        <div class="top-wave">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+        </div>
+        <h1>Let's Keep in <span>Touch</span></h1>
+        <div class="contact-box" data-aos="zoom-in-right" data-aos-duration="500">
+          <div class="left-side">
+            <img src="img/email.png" alt="email">
+          </div>
+          <div class="right-side">
+            <form id="form" action="https://festive-franklin-576549.netlify.app/.netlify/functions/index/api" method="POST">
+              <div class="info-required">
+                <label for="name">Name *</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="off" required pattern="[a-zA-Z/\x20+/g]+">
+              </div>
+              <div class="info-required">
+                <label for="email">Email *</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" autocomplete="on" required>
+              </div>
+              <div class="info-required">
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone number" autocomplete="on" pattern="[0-9]+" minlength="8" maxlength="10">
+              </div>
+              <div class="info-required">
+                <label for="message">Message *</label>
+                <textarea type="text" name="message" id="message" placeholder="Enter message" rows="5" cols="33"></textarea>
+              </div>
+              <button class="light-btn" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="bottom-wave">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="contact-shape-fill"></path>
+          </svg>
+        </div>
+			</div>
+    </main>
+    <footer>
+      <h1>Marat Joseph Lanza Meitchouk<br>Coded with <img src="img/love.svg" alt="love"></h1>
+      <div class="sm-icons">
+        <a href="mailto:lanzamarat@gmail.com" target="_blank">
+          <img src="img/social media/gmail.svg" alt="gmail">
+        </a>
+        <a href="https://github.com/Meitchouk" target="_blank" rel="noopener">
+          <img src="img/social media/github.svg" alt="github">
+        </a>
+        <a href="https://www.linkedin.com/in/marat-lanza/" target="_blank" rel="noopener">
+          <img src="img/social media/linkedin.png" alt="linkedin">
+        </a>
+        <a href="mailto:MeitchoukJoseph@outlook.es" target="_blank">
+          <img src="img/social media/outlook.svg" alt="outlook">
+        </a>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/show_elements.js"></script>
+    <script type="text/javascript" src="js/navbar_btns_events.js"></script>
+    <script type="text/javascript" src="js/loader.js"></script>
+    <script type="text/javascript" src="js/api_rest/wp_init.js"></script>
+    <script type="text/javascript" src="js/api_rest/send_email.js"></script>
+    <script type="text/javascript" src="js/project_slide.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script type="text/javascript" src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.15/dist/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript">AOS.init()</script>
+  </body>
+</html>
