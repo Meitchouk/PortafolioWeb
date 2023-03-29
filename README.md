@@ -22,6 +22,4 @@
   - Express
   - Nodemailer
   - JWT
-  #### Published in: Netlify
-
 </div>
